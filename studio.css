@@ -1,0 +1,557 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+input[type=button]{
+    background-color: #ffc800;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    margin-top: 15px;
+    border: 1px #ffc800 solid;
+    border-radius: 2px;
+    font-weight: bold;
+}
+#head{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+#head img{
+    width: 100%;
+    height: auto;
+}
+#head .menu-line{
+    width: 80%;
+    height: auto;
+    display: flex;
+    position: absolute;
+}
+#head .menu-line .text{
+    width: 20%;
+    height: auto;
+    padding-top: 3%;
+}
+#head .menu-line .text h2{
+    width: 100%;
+    height: auto;
+    color: #ffc800;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+#head .menu{
+    width: 60%;
+    height: auto;
+    margin-left: 40%;
+    padding-top: 6%;
+}
+#head .menu a{
+    text-decoration: none;
+    font-size: 1vw;
+    color: white;
+    padding: 10px 10px;
+}
+#head .container1{
+    width: 80%;
+    height: auto;
+    position: absolute;
+}
+#head .container1 .welcome{
+    width: 80%;
+    height: auto;
+    padding-top: 19%;
+}
+#head .container1 .welcome h2{
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    padding-top: 13%;
+    font-size: 2vw;
+    margin-left: 25%;
+    font-family: cursive;
+}
+#head .container1 .welcome P{
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 4vw;
+    margin-left: 25%;
+    font-family: 'Times New Roman', Times, serif
+}
+#header{
+    width: 100%;
+    height: auto;
+    
+    justify-content: space-around;
+}
+#header .services{
+    width: 100%;
+    height: auto;
+}
+#header .services h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 3vw;
+}
+#header .services p{
+    text-align: center;
+    font-family: cursive;
+    color:rgb(151, 149, 149);
+}
+#header .row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+#header .row .site{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#header .row .site .col{
+    width: 25%;
+    height: auto;
+}
+#header .row .site .col h2{
+    text-align: center;
+}
+#header .row .site .col p{
+    color:rgb(151, 149, 149);
+    text-align: center;
+    font-size: 1vw;
+}
+#port{
+    width: 100%;
+    height: auto;
+    background-color: rgb(229, 229, 229); 
+    padding-bottom: 7%;
+}
+#port .text2{
+    width: 100%;
+    height: auto;
+}
+#port .text2 h1{
+    text-align: center;
+    padding-top: 6%;
+}
+#port .text2 p{
+    text-align: center;
+    color:rgb(151, 149, 149);
+}
+#port .portfolio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+#port .portfolio .row2{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#port .portfolio .row2 .image{
+    width: 30%;
+    height: auto;
+}
+#port .portfolio .row2 .image img{
+    width: 100%;
+    height: auto;
+}
+#port .portfolio .row2 .image .desc{
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+#port .portfolio1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+#port .portfolio1 .row3{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#port .portfolio1 .row3 .image3{
+    width: 30%;
+    height: auto;
+}
+#port .portfolio1 .row3 .image3 img{
+    width: 100%;
+    height: auto;
+}
+#port .portfolio1 .row3 .image3 .desc3{
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+#about{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+#about .text6{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+#about .text6 p{
+    color:rgb(151, 149, 149);
+}
+#about .mainid{
+    height: auto; 
+    width: 100%; 
+    margin-top: 5%; 
+    display: flex; 
+    justify-content: space-around;
+}
+#about .mainid .center4{
+    height: auto; 
+    width: 80%; 
+    display: flex; 
+    justify-content: space-around;
+}
+#about .mainid .center4 .detail{
+    height: auto; 
+    line-height: 115%; 
+    text-align: right; 
+    width: 25%; 
+    margin-left: 10%; 
+}
+#about .mainid .center4 .detail1{
+    width: 15%;
+    height: auto;
+    padding-top: 2%;
+}
+#about .mainid .center4 .detail1 img{
+    width: 100%;
+    height: auto;
+    border: 10px solid rgb(151, 149, 149);
+    border-radius: 50%;
+    margin-left: 3%;
+}
+#about .mainid .center4 .detail1 .v{
+    height: auto; 
+    border-left: 1px solid  rgb(151, 149, 149);
+    margin-top: -3%; 
+    margin-left: 50%; 
+    height: 225px;
+}
+#about .mainid .center4 .detail2{
+    height: auto; 
+    line-height: 115%;  
+    width: 25%;  
+    margin-right: 12%;
+}
+#about .mainid .center4 .detail1 .v1{
+    height: auto; 
+    border-left: 1px solid   rgb(151, 149, 149); 
+    margin-top: -119%; 
+    margin-left: 50%; 
+    height: 290px;
+}
+#about .mainid{
+    height: auto; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-around;
+}
+#about .mainid .center4 .detail3{
+    width: 15%;
+    height: auto;
+    padding-top: 2%;
+}
+#about .mainid .center4 .detail3 img{
+    width: 100%;
+    height: auto;
+    border: 10px solid rgb(151, 149, 149);
+    border-radius: 50%;
+    margin-left: 196%;
+    margin-top: -59%;
+}
+#about .mainid .center4 .detail3 .v1{
+    height: auto; 
+    border-left: 1px solid rgb(151, 149, 149); 
+    margin-top: -119%; 
+    margin-left: 243%; 
+    height: 420px;
+}
+
+#about .mainid .center4 .detail4{
+    height: auto; 
+    line-height: 115%; 
+    text-align: right; 
+    width: 25%; 
+    margin-left: 10%; 
+    margin-top: -6%;
+}
+#about .mainid{
+    height: auto; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-around;
+}
+#about .mainid .center4 .detail5{
+    height: auto; 
+    line-height: 115%; 
+    text-align: right; 
+    width: 25%; 
+    margin-left: 10%; 
+    margin-top: -5%;
+}
+#about .mainid .center4 .detail6{
+    width: 15%;
+    height: auto;
+    padding-top: 2%;
+}
+#about .mainid .center4 .detail6 img{
+    width: 100%;
+    height: auto;
+    border: 10px solid rgb(151, 149, 149);
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-top: -55%;
+}
+#about .mainid .center4 .detail6 .v{
+    height: auto; 
+    border-left: 1px solid  rgb(151, 149, 149);
+    margin-top: -3%; 
+    margin-left: 50%; 
+    height: 225px;
+}
+#about .mainid .center4 .detail7{
+    width: 25%;  
+    margin-right: 12%;
+}
+#about .mainid{
+    height: auto; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-around;
+}
+#about .mainid .center4 .detail8{
+    width: 15%;
+    height: auto;
+    padding-top: 2%;
+}
+#about .mainid .center4 .detail8 img{
+    width: 100%;
+    height: auto;
+    border: 10px solid rgb(151, 149, 149);
+    border-radius: 50%;
+    margin-left: 196%;
+    margin-top: -59%;
+}
+#about .mainid .center4 .detail8 .v1{
+    height: auto; 
+    border-left: 1px solid rgb(151, 149, 149); 
+    margin-top: -119%; 
+    margin-left: 243%; 
+    height: 420px;
+}
+
+#about .mainid .center4 .detail9{
+    height: auto; 
+    line-height: 115%; 
+    text-align: right; 
+    width: 25%; 
+    margin-left: 10%; 
+    margin-top: -6%;
+}
+#about .mainid .center4 .detail10{
+    width: 220px;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: #ffc800;
+    border: 10px solid rgb(151, 149, 149);
+    border-radius: 50%;
+    padding: 4%;
+    margin-top: -7%;
+    margin-left: -2%;
+}
+#about1{
+    width: 100%;
+    height: auto;
+    background-color: rgb(229, 229, 229); 
+    padding-bottom: 5%;
+}
+#about1 .desc4{
+    width: 100%;
+    height: auto;
+}
+#about1 .desc4 h1{
+    text-align: center;
+    padding-top: 6%;
+}
+#about1 .desc4 p{
+    text-align: center;
+    color:rgb(151, 149, 149);
+}
+#about1 .amazing{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#about1 .amazing .team{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#about1 .amazing .team .col-team{
+    width: 25%;
+    height: auto;
+}
+#about1 .amazing .team .col-team h2{
+    text-align: center;
+    margin-right: 25%;
+}
+#about1 .amazing .team .col-team p{
+    color:rgb(151, 149, 149);
+    text-align: center;
+    font-size: 1vw;
+    margin-right: 23%;
+}
+#about1 .desc5{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    letter-spacing: 0.15rem;
+}
+#about1 .desc5 p{
+    text-align: center;
+    color:rgb(151, 149, 149);
+}
+#cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+#cont .socialmedia{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#cont .socialmedia .image-social{
+    width: 20%;
+    height: auto;
+}
+#cont .socialmedia .image-social img{
+    width: 60%;
+    height: auto;
+}
+#contact{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 2%;
+}
+#contact img{
+    width: 100%;
+    height: auto;
+}
+#contact .con-us{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    padding-top: 5%;
+}
+#contact .con-us h1{
+    text-align: center;
+    color: white;
+}
+#contact .con-us p{
+    text-align: center;
+    color:rgb(151, 149, 149);
+}
+#contact .form1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+}
+#contact .form1 .form2{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#contact .form1 .form2 .form3{
+    width: 30%;
+    height: auto;
+}
+input[type=text]{
+    width: 100%;
+    color: white;
+    padding: 4%; 
+    margin: 4%;
+    border-radius: 2px;
+    font-weight: bold;
+}
+#contact .form1 .form2 .form4{
+    width: 30%;
+    height: auto;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    padding-top: 3%;
+}
+#footer .conl{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#footer .conl .fot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-right: -5%;
+}
+#footer .conl .fot .end{
+    width: 25%;
+}
+#footer .conl .fot h2{
+    font-size: 1vw;
+    color:rgb(151, 149, 149);
+}
+#footer .conl .fot1{
+    width: 25%;
+}
+#footer .conl .fot2{
+    width: 25%;
+}
+#footer .conl .fot2 a{
+    text-decoration: none;
+    font-size: 1vw;
+    color: black;
+    padding: 10px 10px;
+    color:rgb(151, 149, 149);
+}
